@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.bob</groupId>
-    <artifactId>learn-swing</artifactId>
+    <artifactId>learn-fx</artifactId>
     <version>1.0.0</version>
 
     <parent>
@@ -80,7 +80,7 @@
         </dependency>
     </dependencies>
     <build>
-        <finalName>learn-swing</finalName>
+        <finalName>learn-fx</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
