@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.bob.learn.controller.IndexController">
+<BorderPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.bob.learn.client.controller.IndexController">
    <children>
-      <AnchorPane layoutX="1.0" layoutY="1.0" prefHeight="400.0" prefWidth="610.0">
+      <BorderPane layoutX="1.0" layoutY="1.0" minHeight="200.0" minWidth="300.0" prefHeight="400.0" prefWidth="600.0">
          <children>
             <Label fx:id="usernameL" layoutX="178.0" layoutY="126.0" text="用户名:" wrapText="true" />
             <TextField fx:id="usernameTF" layoutX="246.0" layoutY="122.0" />
@@ -13,6 +14,10 @@
             <TextField fx:id="passwordTF" layoutX="246.0" layoutY="168.0" />
             <Button fx:id="loginB" layoutX="226.0" layoutY="232.0" mnemonicParsing="false" text="登录" />
             <Button fx:id="cancelB" layoutX="367.0" layoutY="232.0" mnemonicParsing="false" text="取消" />
-         </children></AnchorPane>
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      <BorderPane prefHeight="200.0" prefWidth="200.0" />
    </children>
-</AnchorPane>
+</BorderPane>

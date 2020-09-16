@@ -1,4 +1,4 @@
-package org.bob.learn.controller;
+package org.bob.learn.client.controller;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
