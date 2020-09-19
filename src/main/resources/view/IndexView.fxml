@@ -18,6 +18,6 @@
          <opaqueInsets>
             <Insets />
          </opaqueInsets>
-      <BorderPane prefHeight="200.0" prefWidth="200.0" />
+      </BorderPane>
    </children>
 </BorderPane>
